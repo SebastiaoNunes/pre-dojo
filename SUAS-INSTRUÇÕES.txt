@@ -1,2 +1,22 @@
-Coloque aqui suas instruções ou comentários que ache útil/relevantes para possamos ler 
-quando estivermos avaliando a sua solução
+
+# Foram desenvolvidas as Funcionalidades abaixo:
+
+1- Quantidade assassinatos e a quantidade de mortes de cada jogador;
+2- Assassinatos realizados pelo <WORLD> devem ser desconsiderados, no entanto,
+   as mortes causadas pelo <WORLD> devem ser consideradas para o jogador que foi morto;
+3- Descobrir a arma preferida (a que mais matou) do vencedor;
+4- Identificar a maior sequência de assassinatos efetuadas por um jogador (streak) sem morrer, dentro da partida;
+5- Jogadores que vencerem uma partida sem morrerem devem ganhar um "award";
+
+# Os cenários de cada funcionalidade está automatizado pelas classes Abaixo:
+
+1- br.com.amil.GameTest
+2- br.com.amil.features.PreferredGunFeatureTest
+3- br.com.amil.features.SequenceWithoutDyingFeatureTest
+4- br.com.amil.features.WinnerPlayerFeatureTest
+5- br.com.amil.features.WinnerPlayerWithAwardFeatureTest
+6- br.com.amil.features.IgnoreMurdersWorldFeatureTest
+
+# Para compilar o projeto usar o comando abaixo:
+  	mvn clean package install -e
+

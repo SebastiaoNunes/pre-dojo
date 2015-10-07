@@ -72,8 +72,8 @@ public class WinnerPlayerFeatureTest {
 
         ensureThat(ranking)
                 .forPlayer(roman)
-                .shouldHaveMurders(1)
-                .shouldHaveDeath(0)
-                .shouldBeWinner();
+                    .shouldHaveMurders(1)
+                    .shouldHaveDeath(0)
+                    .shouldBeWinner();
     }
 }

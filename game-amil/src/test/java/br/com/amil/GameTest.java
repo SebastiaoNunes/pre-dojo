@@ -182,12 +182,12 @@ public class GameTest {
 
         ensureThat(ranking)
                 .forPlayer(roman)
-                .shouldHaveMurders(1)
-                .shouldHaveDeath(0)
-                .shouldBeWinner()
-                .shouldHaveAward(true)
-                .shouldHavePreferredGun(GunType.KNIFE)
-                .shouldHaveMostMurderSequenceWithoutDying(0);
+                    .shouldHaveMurders(1)
+                    .shouldHaveDeath(0)
+                    .shouldBeWinner()
+                    .shouldHaveAward(true)
+                    .shouldHavePreferredGun(GunType.KNIFE)
+                    .shouldHaveMostMurderSequenceWithoutDying(0);
     }
 
     @Test
@@ -217,11 +217,11 @@ public class GameTest {
 
         ensureThat(ranking)
                 .forPlayer(roman)
-                .shouldHaveMurders(2)
-                .shouldHaveDeath(1)
-                .shouldBeWinner()
-                .shouldHaveAward(false)
-                .shouldHavePreferredGun(GunType.KNIFE)
-                .shouldHaveMostMurderSequenceWithoutDying(2);
+                    .shouldHaveMurders(2)
+                    .shouldHaveDeath(1)
+                    .shouldBeWinner()
+                    .shouldHaveAward(false)
+                    .shouldHavePreferredGun(GunType.KNIFE)
+                    .shouldHaveMostMurderSequenceWithoutDying(2);
     }
 }
